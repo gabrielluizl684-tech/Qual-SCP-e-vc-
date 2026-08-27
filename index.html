@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script>
+		function retornarValor() {
+  			return Math.floor(Math.random() * 10);
+		}
+
+		function roleta() {
+			nomeScp = document.getElementById('nScp');
+			paragrafoScp = document.getElementById('paragrafoScp');
+			imagemScp = document.getElementById('imagemScp');
+			scp = retornarValor();
+
+			if (scp == 0) {
+				nomeScp.innerHTML = 'SCP-096';
+				imagemScp.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8QngqnPVaplB-EzLUcEgt8uS5qShs8bW_nt-Bv3CwPw&s=10';
+				paragrafoScp.innerHTML = 'SCP-096 é uma criatura humanoide, medindo aproximadamente 2,38 metros de altura. Sujeito mostra ter pouca massa muscular, com a análise preliminar de massa corporal sugerindo uma leve desnutrição. Braços estão grosseiramente fora de proporção com o resto do corpo do sujeito, com extensão aproximada de 1,5 metros cada. A pele é principalmente desprovida de pigmentação, sem nenhum sinal de qualquer cabelo no corpo.';
+			} if (scp == 1) {
+				nomeScp.innerHTML = '●●|●●●●●|●●|●';
+				imagemScp.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs3KjtH8mZACotAlkdsujKKqkSItJsvhyX-2Apfz06wQ&s=10';
+				paragrafoScp.innerHTML = '(Descrição Indisponivel)';
+			} if (scp == 2) {
+				nomeScp.innerHTML = 'SCP-079';
+				imagemScp.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNdzG8vCNx_Yb1Sgo456NyuZAv8ZIoh_8cy-Xx7nDcgQ&s=10';
+				paragrafoScp.innerHTML = 'SCP-079 é um microcomputador Exidy Sorcerer fabricado em 1978. Em 1981, seu proprietário, █████ ██████ (falecido), um estudante universitário do segundo ano da ███, decidiu tentar programar uma IA. De acordo com suas anotações, seu plano era que o código evoluísse e se aprimorasse continuamente com o tempo. Seu projeto foi concluído alguns meses depois e, após alguns testes e ajustes, █████ perdeu o interesse e passou a usar um microcomputador de outra marca. Ele deixou SCP-079 em sua garagem bagunçada, ainda conectado à tomada, e se esqueceu dele pelos cinco anos seguintes.';
+			} if (scp == 3) {
+				nomeScp.innerHTML = 'SCP-067';
+				imagemScp.src = 'https://static.wikia.nocookie.net/fundacao-scp-global/images/9/95/SCP-067.png/revision/latest?cb=20230523003632&path-prefix=pt-br';
+				paragrafoScp.innerHTML = 'SCP-067 é uma caneta-tinteiro feita por uma empresa alemã chamada Pelikan em algum momento entre a Primeira Guerra Mundial e a Segunda Guerra Mundial. O objeto possui coloração verde-clara, com uma única linha vermelha correndo pela sua lateral. O casco é feito de carvalho e a ponta é extremamente afiada, sendo capaz de perfurar a pele humana com a aplicação de pouquíssima pressão. Apesar de, aparentemente, não possuir um reservatório, a ponta nunca parece ficar sem tinta fresca. Além disso, a caneta escreve com tinta ferrogálica, com características adequadas para artistas mas com propriedades químicas que teriam corroído outras canetas-tinteiro rapidamente.';
+			} if (scp == 4) {
+				nomeScp.innerHTML = 'SCP-173';
+				imagemScp.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA_phKS4SMQp46a1p7W8X2vyK4uVm57Wt-1kmbD9mJ9A&s=10';
+				paragrafoScp.innerHTML = 'Movido ao Sítio-19 em 1993. Origem desconhecida até o momento. Composto de concreto e reforços metálicos, com traços de tinta spray da marca Krylon. SCP-173 é animado e extremamente hostil. O objeto não consegue se mover enquanto mantido em uma linha de visão direta. A linha de visão não deve ser interrompida em nenhum momento. Funcionários designados a entrar na câmara são instruídos a avisar uns aos outros antes de piscar. Relatos mostram que o objeto ataca torcendo o pescoço ou estrangulando. Em caso de ataque, funcionários devem seguir o procedimento de contenção de objetos perigosos Classe 4.';
+			} if (scp == 5) {
+				nomeScp.innerHTML = 'SCP-1000';
+				imagemScp.src = 'https://scp-wiki.wdfiles.com/local--files/scp-1000/bigfoot_patterson01-new.png';
+				paragrafoScp.innerHTML = 'SCP-1000 é um primata noturno e onívoro, classificado na ordem Hominini , juntamente com os gêneros Pan e Homo . Os adultos medem de 1,5 a 3 metros de altura e pesam entre 90 e 270 kg. Possuem pelagem cinza, marrom, preta, vermelha e, ocasionalmente, branca. Apresentam olhos grandes com boa visão, uma crista supraorbital pronunciada e uma crista sagital na testa semelhante à do gorila, porém presente em ambos os sexos. Sua inteligência é comparável à do Pan troglodytes (o chimpanzé comum).';
+			} if (scp == 6) {
+				nomeScp.innerHTML = 'SCP-999';
+				imagemScp.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7yGFJhJP2vGv5XCXz5KhCvafCQIUIjcfzLY3FT9Sfhg&s=10';
+				paragrafoScp.innerHTML = 'SCP-999 parece ser uma grande e amorfa massa gelatinosa, translúcida, laranja e viscosa; pesa cerca de 54 kg, e tem uma consistência semelhante a de manteiga de amendoim. O tamanho e forma do indivíduo mudam constantemente, entretanto, na maior parte do tempo ele tem o tamanho de um grande pufe. A composição de SCP-999 é baseada em óleo, mas consiste de uma substância desconhecida pela ciência moderna. Além da membrana fina e transparente que envolve sua massa laranja, o indivíduo parece não ter órgãos que possam ser notados.';
+			} if (scp == 7) {
+				nomeScp.innerHTML = 'SCP-1048';
+				imagemScp.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUGg3rf9W6EENWW7ps0FBX9arKh9tTc2SK-ws1ecfXjLE9aL3a7Rl91LZtU5kCfLHo1U7rtiYbszasdgPo27VlwnAg_9vKzTdaPjjnMamFQ&s=10';
+				paragrafoScp.innerHTML = 'SCP-1048 é um pequeno urso de pelúcia, com aproximadamente 33 cm de altura. Através de testes, a composição do sujeito não revelou nenhuma qualidade incomum que o tornasse distinguível de um urso de pelúcia não senciente. O sujeito é capaz de se mover por conta própria e pode se comunicar através de uma pequena gama de gestos. O sujeito demonstra afeto regularmente por indivíduos de maneiras consideradas adoráveis ​​pela maioria das pessoas. O afeto geralmente se manifesta na forma de um abraço na parte inferior da perna, mas o sujeito também foi observado dançando, pulando no mesmo lugar e, em duas ocasiões distintas, chegou a desenhar figuras infantis para a equipe de limpeza. Todos os funcionários da Fundação que interagiram com o sujeito responderam positivamente ao seu afeto, inclusive os funcionários da Classe D com tendências sociopáticas comuns.';
+			} if (scp == 8) {
+				nomeScp.innerHTML = 'SCP-682';
+				imagemScp.src = 'https://static.wixstatic.com/media/3446de_c27d8e3d48d243b290437fa9fb8b804e~mv2.jpg/v1/fill/w_448,h_330,al_c,lg_1,q_80/3446de_c27d8e3d48d243b290437fa9fb8b804e~mv2.jpg';
+				paragrafoScp.innerHTML = ' SCP-682 é uma criatura grande, vagamente semelhante a um réptil, de origem desconhecida. Ela parece ser extremamente inteligente e foi observada estabelecendo comunicação complexa com SCP-079 durante o curto período em que estiveram expostos. SCP-682 parece nutrir ódio por toda a vida, o que foi expresso em diversas entrevistas durante o período de contenção. (Ver Adendo 682-B).';
+			} if (scp == 9) {
+				nomeScp.innerHTML = 'SCP-914';
+				imagemScp.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjblo5ytFPZUVUSj41hW1XSdfBqidFA8WxZ6accdGHsg&s=10';
+				paragrafoScp.innerHTML = 'SCP-914 é um dispositivo grande tipo-relógio que pesa várias toneladas e cobre uma área de dezoito metros quadrados, que consiste em movimentos de parafusos, cintos, polias, engrenagens, molas e outros mecanismos de relógio. É incrivelmente complexo, composto por mais de oito milhões de partes móveis, principalmente de estanho e cobre, com alguns itens de madeira e de tecido observados. A inspeção e a sondagem não mostraram montagens eletrônicas ou qualquer outra forma de energia que não a "Mola Principal" no "Painel de Seleção". Duas cabines grandes de 3mx2.1mx2.1m (10ftx7ftx7ft) são conectadas através de tubos de cobre ao corpo principal de SCP-914, rotulado "Entrada" e "Saída". Entre eles há um painel de cobre com um grande botão com uma pequena flecha anexada. As palavras Bruto, Grosso, 1:1, Fino e Muito Fino estão posicionadas em pontos ao redor do botão. Abaixo do botão há uma grande "chave" que serpenteia a "Mola Principal".';
+			}
+		}
+	</script>
+
+	<title>SCP</title>
+</head>
+<body>
+	<h1 id="title">Qual SCP você é?</h1>
+
+	<button id="roleta" onclick="roleta()">TESTAR</button>
+
+	<div id="main">
+		<h1 id="nScp">Clique o botão!</h1>
+		<img id="imagemScp" src="">
+		<p id="paragrafoScp"></p>
+	</div>
+</body>
+</html>
